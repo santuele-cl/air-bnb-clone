@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: min(90%, 1024px);
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: columns;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.card {
+    flex: 1 230px;
+}
