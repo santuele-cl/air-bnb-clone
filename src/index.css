@@ -27,3 +27,15 @@ html,body {
 .card {
     flex: 1 230px;
 }
+
+.badge {
+    @apply absolute text-sm rounded-lg shadow-md
+}
+
+.badge-sold-out {
+    @apply top-4 left-4 px-4 py-2 text-white bg-red-700 
+}
+
+.badge-sold-online {
+    @apply top-4 right-4 px-3 py-2 bg-white text-red-700 
+}

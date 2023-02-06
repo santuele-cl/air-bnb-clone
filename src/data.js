@@ -1,5 +1,6 @@
 const data = [
     {
+        id: 1,
         img: "https://images.unsplash.com/photo-1617456661334-7bde5d043ac6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         name:"Katie Zafares",
         country: "USA",
@@ -7,9 +8,11 @@ const data = [
         price: 299,
         rating: 4.8,
         totalReviewee: 38,
-        availability: "Online",
+        openSpots: 21,
+        mode: "f2f",
     },
     {
+        id: 2,
         img: "https://images.unsplash.com/photo-1599142296733-1c1f2073e6de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         name:"Sophia First",
         country: "France",
@@ -17,9 +20,11 @@ const data = [
         price: 139,
         rating: 4.9,
         totalReviewee: 108,
-        availability: "Online",
+        openSpots: 41,
+        mode: "online",
     },
     {
+        id: 3,
         img: "https://images.unsplash.com/photo-1478059299873-f047d8c5fe1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBjeWNsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60",
         name:"Bear Grylls",
         country: "Brazil",
@@ -27,9 +32,11 @@ const data = [
         price: 249,
         rating: 4.9,
         totalReviewee: 999,
-        availability: "Sold out",
+        openSpots: 0,
+        mode: "f2f",
     },
     {
+        id: 4,
         img: "https://images.unsplash.com/photo-1675403493757-e65b912641c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
         name:"Celine Deline",
         country: "USA",
@@ -37,9 +44,11 @@ const data = [
         price: 136,
         rating: 5.0,
         totalReviewee: 6,
-        availability: "Online",
+        openSpots: 14,
+        mode: "online",
     },
     {
+        id: 5,
         img: "https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         name:"Lemon San",
         country: "Pandora",
@@ -47,7 +56,8 @@ const data = [
         price: 1,
         rating: 5.0,
         totalReviewee: 999,
-        availability: "Sold out",
+        openSpots: 23,
+        mode: "online",
     },
 ]
 
